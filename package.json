@@ -1,0 +1,26 @@
+{
+  "name": "runeclan-discord-bot",
+  "version": "0.0.1",
+  "description": "Discord bot for scraping Runeclan gains",
+  "main": "index.js",
+  "author": "Connor Spencer Harries <connorsharries96@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./index.js --exec babel-node",
+    "start": "babel-node ./index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.3.0",
+    "human-format": "^0.10.0",
+    "promise": "^8.0.1",
+    "request": "^2.83.0",
+    "winston": "^3.0.0-rc1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.14.11"
+  }
+}
